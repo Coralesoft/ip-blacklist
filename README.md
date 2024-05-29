@@ -18,11 +18,11 @@ This repository contains curated lists of IP addresses that are known for spam a
 The following Cloudflare Workers are used to dynamically curate and update the lists:
 
 - Nixspam IP List: [https://ip-blacklist.corale.workers.dev/nixspam-ip.txt](https://ip-blacklist.corale.workers.dev/nixspam-ip.txt)
-  - URL: `https://ip-blacklist.corale.workers.dev/nixspam-ip.txt`
+
 - SSBL IP List: [https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt](https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt)
-  - URL: `https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt`
+
 - Merged IP List: [https://ip-blacklist.corale.workers.dev/merged-list.txt](https://ip-blacklist.corale.workers.dev/merged-list.txt)
-  - URL: `https://ip-blacklist.corale.workers.dev/merged-list.txt`
+
 
 These workers ensure that the lists are always up-to-date with the latest data.
 
