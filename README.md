@@ -1,4 +1,4 @@
-# i have stopped updatign the txt files and jus tuse the urls below, let me know if you need the txt files to still be updated in the issues
+# I have stopped updatign the txt files and jus tuse the urls below, let me know if you need the txt files to still be updated in the issues
 # Spam Blocklist
 
 This repository contains curated lists of IP addresses that are known for spam activities. The lists are dynamically updated using Cloudflare Workers.
