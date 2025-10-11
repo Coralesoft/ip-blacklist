@@ -27,6 +27,8 @@ The following Cloudflare Workers are used to dynamically curate and update the l
 - SSBL IP List: https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt
 - Merged IP List: https://ip-blacklist.corale.workers.dev/merged-list.txt
 - CIDRs Only: https://ip-blacklist.corale.workers.dev/cidrs-only.txt
+- Combined IPs Only: https://ip-blacklist.corale.workers.dev/combined-ips.txt
+- Combined CIDRs Only: https://ip-blacklist.corale.workers.dev/combined-cidrs.txt
 
 These workers ensure that the lists are always up to date with the latest data.
 
