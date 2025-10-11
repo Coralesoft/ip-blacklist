@@ -1,5 +1,7 @@
-# I have stopped updatign the txt files and jus tuse the urls below, let me know if you need the txt files to still be updated in the issues
 # Spam Blocklist
+
+> **Note:** I’ve stopped updating the repository `.txt` files and now use the live URLs below.  
+> If you still want the repo files updated, please open an issue and say which ones.
 
 This repository contains curated lists of IP addresses that are known for spam activities. The lists are dynamically updated using Cloudflare Workers.
 
@@ -13,19 +15,20 @@ This repository contains curated lists of IP addresses that are known for spam a
 
 3. **sslipblacklist-ips.txt**
    - This file contains IP addresses from the SSBL SSL botnet IPs feed.
+  
+4. **cidrs-only.txt**
+   - This file contains IPv4 network ranges in CIDR notation (e.g., `203.0.113.0/24`), one per line. 
 
 ## Dynamic Cloudflare Workers
 
 The following Cloudflare Workers are used to dynamically curate and update the lists:
 
-- Nixspam IP List: [https://ip-blacklist.corale.workers.dev/nixspam-ip.txt](https://ip-blacklist.corale.workers.dev/nixspam-ip.txt)
+- Nixspam IP List: https://ip-blacklist.corale.workers.dev/nixspam-ip.txt
+- SSBL IP List: https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt
+- Merged IP List: https://ip-blacklist.corale.workers.dev/merged-list.txt
+- CIDRs Only: https://ip-blacklist.corale.workers.dev/cidrs-only.txt
 
-- SSBL IP List: [https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt](https://ip-blacklist.corale.workers.dev/sslipblacklist-ips.txt)
-
-- Merged IP List: [https://ip-blacklist.corale.workers.dev/merged-list.txt](https://ip-blacklist.corale.workers.dev/merged-list.txt)
-
-
-These workers ensure that the lists are always up-to-date with the latest data.
+These workers ensure that the lists are always up to date with the latest data.
 
 ## How to Use
 
